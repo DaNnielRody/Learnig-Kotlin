@@ -1,7 +1,5 @@
 package oop
 
-import javax.print.DocFlavor.STRING
-
 /*
 Quando tratamos herança, temos que deixar a classe pai aberta para poder ser herdada. Quando herdamos, podemos separar
 os parâmetros do filho e informar o parâmetro do pai através do argumento (nos parênteses).

@@ -7,6 +7,7 @@ Eles vão utilizar os mesmos atributos, porém, para usos diferentes e com valor
 parâmetros esperam receber argumentos parecidos.
  */
 
+// interfaces são abstratas por padrão:
 interface Animal {
     val breed: String
     fun pet()

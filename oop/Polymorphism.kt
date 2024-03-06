@@ -8,6 +8,29 @@ parâmetros esperam receber argumentos parecidos.
  */
 
 // interfaces são abstratas por padrão:
+
+/*
+Mais de uma inteface pode ser herdada por uma classe filha. Se aqui tivéssemos a interface Animal, e Mammal que herda Animal,
+poderíamos criar uma classe Dog que herda Mammal e Animal (Class Dog : Animal, Mammal), ficando assim:
+
+interface Animal {
+    fun makeSound()
+}
+
+interface Mammal : Animal {
+    fun giveBirth()
+}
+
+class Dog : Animal, Mammal {
+    override fun makeSound() {
+        println("Woof!")
+    }
+
+    override fun giveBirth() {
+        println("Giving birth to puppies!")
+    }
+}
+ */
 interface Animal {
     val breed: String
     fun pet()

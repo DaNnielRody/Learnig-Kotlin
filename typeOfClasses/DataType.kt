@@ -1,5 +1,10 @@
 package typeOfClasses
 
+/*
+Quando precisamos utilizar um cenário simples para mexer com dados, podemos utilizar o tipo data em relação aos outros
+tipos de declaração de classe.
+ */
+
 data class Dog(
     val name: String,
     val age: Int

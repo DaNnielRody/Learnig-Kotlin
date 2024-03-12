@@ -27,7 +27,7 @@ enum class WeekDay {
 
 /*
 Enums também podem ter construtores, e assim receber valores em seus parâmetros para serem chamados.
-Neste caso, podemos fazer uma função que especifica o tamanho de cada pizza e chamar PizzaSize.Tamanho para vermos a
+Neste caso, podemos fazer uma função que especifica o tamanho de cada pizza e chamar "PizzaSize.sizeInCm" para vermos a
 sua saída.
  */
 
